@@ -2,7 +2,7 @@ package node
 
 type Node struct {
 	// ImageID of EC2 instance.
-	ImageID string
+	ImageID string `json:"imageID"`
 	// InstanceType of EC2 instance.
-	InstanceType string
+	InstanceType string `json:"instanceType"`
 }
