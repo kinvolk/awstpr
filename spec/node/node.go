@@ -5,4 +5,5 @@ type Node struct {
 	ImageID string `json:"imageID"`
 	// InstanceType of EC2 instance.
 	InstanceType string `json:"instanceType"`
+	Hostname     string `json:"hostname"`
 }
