@@ -1,6 +1,6 @@
 package aws
 
-type Aws struct {
+type AWS struct {
 	KMSKeyArn string `json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	Masters   []Node `json:"masters" yaml:"masters"`
 	Region    string `json:"region" yaml:"region"`

@@ -7,5 +7,5 @@ import (
 
 type Spec struct {
 	Cluster clustertpr.Cluster `json:"cluster" yaml:"cluster"`
-	Aws     aws.Aws            `json:"aws" yaml:"aws"`
+	AWS     aws.AWS            `json:"aws" yaml:"aws"`
 }
